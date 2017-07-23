@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+}
+
+#page_title{
+    text-align: center;
+    font-size: 250%;
+    text-shadow: 3px 2px blueviolet;
+    background-color: #AAAAAA;
+    line-height: 150%;
+}
+
+#descriptor{
+    text-align: center;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+#description{
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.search_text{
+    font-size: 175%;
+    text-shadow: 1px 2px red;
+    line-height: 55%;
+}
+
+.search_sub{
+    text-align: center;
+    font-size: 150%;
+}
+
+p {
+    text-align: center;
+}
+
+#reference{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: firebrick;
+}
+
+#box{
+    position: relative;
+    top: -27px;
+    background-color: rgba(72, 61, 139, .95);
+    border: 25px black;
+    margin: auto;
+    width: 50%;
+    height: 26vw;
+}
+
+#college_results_element{
+    color: red;
+}
+
+#state_results_element{
+    color: red;
+}
+
+/* from: https://slicejack.com/fullscreen-html5-video-background-css/ */
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('carleton_footage.mp4') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}

@@ -1,0 +1,3 @@
+Kevin Christianson and Isaac Haseley, 2017
+
+We use the College Scorecard dataset, a comprehensive higher education database maintained by the U.S. Department of Education.  Data, analysis, and documentation, including variable descriptions and guides to using the College Scorecard API are available here: ​https://collegescorecard.ed.gov/data/ Licensing information is available here: ​https://catalog.data.gov/dataset/college-scorecard 
